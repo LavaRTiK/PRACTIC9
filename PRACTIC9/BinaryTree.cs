@@ -17,9 +17,10 @@ namespace PRACTIC9
             public int key { get; set; }
         }
 
-        public class Tree
+        public class Tree:BinaryNode
         {
-            public int Root { get; set; }
+
+            BinaryNode Root { get; set; }
 
             private int size;
 
@@ -37,15 +38,13 @@ namespace PRACTIC9
                 
             }
 
-            public void Put(int value)
+            public void Put(int key,string value)
             {
-                if(Root > value)
+                if(Root.value == null)
                 {
-                    if(Root == null)
-                    {
-                        value = Root;
-                    }
+                    Root.key = key;
                 }
+
             }
 
             
