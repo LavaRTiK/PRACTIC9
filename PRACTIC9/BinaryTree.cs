@@ -13,12 +13,13 @@ namespace PRACTIC9
             public BinaryNode? Left { get; set; } = null;
             public BinaryNode? Right { get; set; } = null ;
             
-            public int Value { get; set; }
+            public string value { get; set; } 
+            public int key { get; set; }
         }
 
         public class Tree
         {
-            public int? Root { get; set; }
+            public int Root { get; set; }
 
             private int size;
 
@@ -33,14 +34,17 @@ namespace PRACTIC9
             }
             public Tree(int val)
             {
-                Root=val;
+                
             }
 
             public void Put(int value)
             {
                 if(Root > value)
                 {
-
+                    if(Root == null)
+                    {
+                        value = Root;
+                    }
                 }
             }
 
