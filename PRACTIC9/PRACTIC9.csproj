@@ -64,6 +64,7 @@
     <Compile Include="CustomDictionarytest.cs" />
     <Compile Include="FIFOCollection.cs" />
     <Compile Include="FIFOCollectionG.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

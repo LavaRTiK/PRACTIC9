@@ -66,6 +66,11 @@ namespace PRACTIC9
             Console.WriteLine(fifo.Deque());
             */
             #endregion
+            BinaryTree.Tree tree = new BinaryTree.Tree(50,"test1");
+            tree.Put(30, "тест2");
+            tree.Put(60, "тест3");
+            tree.Put(20, "тест4");
+            tree.Put(70, "тест5");
             Console.ReadLine();
 
         }
